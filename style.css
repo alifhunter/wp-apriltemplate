@@ -1,0 +1,457 @@
+/* 
+Theme Name: April 
+Text Domain: April
+Version: 1.0
+Description: Wordpress Theme
+Author: Febrian Alif Pramoedito
+Author URI: https://falifp.my.id
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,200;0,300;0,400;0,500;0,700;1,400&display=swap');
+
+:root {
+    --mainColor : #3C1053;
+    --bgColor : #F1F1F1;
+    --underBlue : #86A8E7;
+    --underPink : #D57F99; 
+    --underGreen : #9FEA91;
+    --underYellow : #DEC100;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    background-color: var(--bgColor)!important;
+    font-family: 'Muli', sans-serif;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--mainColor);
+} 
+
+.display-5 > a {
+    color: white;
+}
+
+.ungu {
+    color: var(--mainColor)!important;
+}
+
+.pt-6 {
+    padding-top: 10rem!important;
+}
+
+.mt-6 {
+    margin-top: 7rem!important;
+}
+
+.display-5 {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.underBlue {
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+    -webkit-text-decoration-thickness: 10px;
+    text-decoration-thickness: 10px;
+    -webkit-text-decoration-color: var(--underBlue);
+    text-decoration-color: var(--underBlue);
+    -webkit-text-underline-offset: 5px;
+    text-underline-offset: 5px;
+} 
+
+.underPink {
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+    -webkit-text-decoration-thickness: 10px;
+    text-decoration-thickness: 10px;
+    -webkit-text-decoration-color: var(--underPink);
+    text-decoration-color: var(--underPink);
+    -webkit-text-underline-offset: 5px;
+    text-underline-offset: 5px;
+} 
+
+.underYellow {
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+    -webkit-text-decoration-thickness: 10px;
+    text-decoration-thickness: 10px;
+    -webkit-text-decoration-color: var(--underYellow);
+    text-decoration-color: var(--underYellow);
+    -webkit-text-underline-offset: 5px;
+    text-underline-offset: 5px;
+} 
+
+.underGreen {
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+    -webkit-text-decoration-thickness: 10px;
+    text-decoration-thickness: 10px;
+    -webkit-text-decoration-color: var(--underGreen);
+    text-decoration-color: var(--underGreen);
+    -webkit-text-underline-offset: 5px;
+    text-underline-offset: 5px;
+} 
+
+.bgGaleri {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(127,127,213,1) 0%, rgba(173,83,137,1) 100%);
+}
+
+.backgroundHeader {
+    background: rgb(60,16,83);
+    background: linear-gradient(90deg, rgba(60,16,83,1) 0%, rgba(213,127,153,1) 100%, rgba(0,212,255,1) 100%); 
+    /* background: url('assets/images/purpleWave.svg') no-repeat; */
+}
+
+.footer {
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: var(--mainColor);
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    
+}
+
+.breadcrumb {
+    background: linear-gradient(90deg, rgba(60,16,83,1) 0%, rgba(213,127,153,1) 100%, rgba(0,212,255,1) 100%); 
+    color: white;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: white;
+}
+
+.bgPost {
+    background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+}
+
+/*
+CSS COMMENTS FROM TWENTYTWENTY
+*/
+/* Comment Headers ----------------------------- */
+
+.comments-wrapper {
+	margin-top: 5rem;
+}
+
+.comment-reply-title {
+	margin: 0 0 4rem 0;
+	text-align: center;
+}
+
+
+/* Comment Item ----------------------------- */
+
+/* COMMENT HEADER */
+
+.comments .comment,
+.comments .pingback,
+.comments .trackback,
+.comments .review {
+	padding-top: 3.5rem;
+}
+
+div.comment:first-of-type {
+	margin-top: 3.5rem;
+	padding-top: 0;
+}
+
+.comments .comments-header + div {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.comment-body {
+	position: relative;
+}
+
+.comment .comment {
+	padding-left: 5%;
+}
+
+.comment-meta {
+	line-height: 1.1;
+	margin-bottom: 1.5rem;
+	min-height: 5rem;
+	padding-left: 5rem;
+	position: relative;
+}
+
+.hide-avatars .comment-meta {
+	min-height: 0;
+	padding-left: 0;
+}
+
+.comment-meta a {
+	color: inherit;
+}
+
+.comment-author {
+	font-size: 1.8rem;
+	font-weight: 700;
+	letter-spacing: -0.027777778em;
+}
+
+.comment-author a {
+	text-decoration: underline;
+}
+
+.comment-author a:hover,
+.comment-author a:focus {
+	text-decoration: none;
+}
+
+.comment-meta .avatar {
+	height: 4rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 4rem;
+}
+
+.comment-author .url {
+	text-decoration: underline;
+}
+
+.comment-metadata {
+	color: #6d6d6d;
+	font-size: 1.4rem;
+	font-weight: 500;
+	margin-top: 0.6rem;
+}
+
+.comment-metadata a {
+	text-decoration: none;
+}
+
+.comment-metadata a:focus,
+.comment-metadata a:hover {
+	text-decoration: underline;
+}
+
+
+/* COMMENT CONTENT */
+
+.comment-content.entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+	width: 100%;
+}
+
+.comment-content.entry-content .alignleft {
+
+	/*rtl:ignore*/
+	margin-left: 0;
+}
+
+.comment-content.entry-content .alignright {
+
+	/*rtl:ignore*/
+	margin-right: 0;
+}
+
+/* COMMENT FOOTER */
+
+.comment-footer-meta {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 1.2rem;
+	font-weight: 600;
+	justify-content: flex-start;
+	letter-spacing: 0.030833333em;
+	line-height: 1;
+	margin: 1.5rem 0 -1rem -1.5rem;
+	text-transform: uppercase;
+}
+
+.comment-footer-meta > * {
+	margin: 0 0 1rem 1.5rem;
+}
+
+.comment-reply-link {
+	background-color: #cd2653;
+	color: #fff;
+	display: block;
+	padding: 0.7rem;
+}
+
+.bypostauthor .comment-footer-meta .by-post-author {
+	display: block;
+}
+
+.comment-footer-meta a {
+	text-decoration: none;
+}
+
+.comment-footer-meta a:focus,
+.comment-footer-meta a:hover {
+	text-decoration: underline;
+}
+
+
+/* Pingbacks & Trackbacks ------------------------- */
+
+.pingback .comment-meta,
+.trackback .comment-meta {
+	padding-left: 0;
+}
+
+
+/* Comments Pagination ---------------------------- */
+
+.comments-pagination {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 6rem;
+	text-align: center;
+}
+
+.comments-pagination.only-next {
+	justify-content: flex-end;
+}
+
+.comments-pagination .page-numbers {
+	display: none;
+	text-decoration: none;
+}
+
+.comments-pagination .page-numbers:focus,
+.comments-pagination .page-numbers:hover {
+	text-decoration: underline;
+}
+
+.comments-pagination .prev,
+.comments-pagination .next {
+	display: block;
+}
+
+.comments-pagination .prev {
+	left: 0;
+}
+
+.comments-pagination .next {
+	right: 0;
+	text-align: right;
+}
+
+
+/* Comment Respond ---------------------------- */
+
+.comment-respond::after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.comment-respond .comment-notes,
+.comment-respond .logged-in-as {
+	color: #6d6d6d;
+	font-size: 1.6rem;
+	line-height: 1.4;
+	margin: -3rem 0 4rem 0;
+	text-align: center;
+}
+
+.comment-respond .comment-notes a,
+.comment-respond .logged-in-as a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.comment-respond .comment-notes a:focus,
+.comment-respond .comment-notes a:hover,
+.comment-respond .logged-in-as a:focus,
+.comment-respond .logged-in-as a:hover {
+	text-decoration: underline;
+}
+
+.comment-respond p {
+	line-height: 1.1;
+	margin-bottom: 2rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.comment-respond p:not(.comment-notes) {
+	max-width: 58rem;
+}
+
+.comment-form-cookies-consent {
+	align-items: baseline;
+	display: flex;
+}
+
+.comment-respond > p:last-of-type {
+	margin-bottom: 0;
+}
+
+.comment-respond label {
+	display: block;
+}
+
+.comment-respond input[type="checkbox"] + label {
+	font-size: 1.5rem;
+	line-height: 1.25;
+}
+
+.comment-respond input[type="text"],
+.comment-respond input[type="email"],
+.comment-respond textarea {
+	margin-bottom: 0;
+}
+
+.comment-respond textarea {
+	height: 15rem;
+}
+
+.comment-respond #submit {
+	display: block;
+}
+
+.comment-respond .comments-closed {
+	text-align: center;
+}
+
+
+/* Reply Respond ---------------------------- */
+
+.comments .comment-respond {
+	padding: 3rem 0 0;
+}
+
+.comments .comment-respond .comment-reply-title,
+.comments .comment-respond .comment-notes,
+.comments .comment-respond .logged-in-as {
+	text-align: left;
+}
+
+.comment-reply-title small {
+	display: block;
+	font-size: 1.6rem;
+	font-weight: 600;
+	letter-spacing: -0.0277em;
+	margin: 0.5rem 0 0 0;
+	white-space: nowrap;
+}
+
+.comment-reply-title small a {
+	text-decoration: none;
+}
+
+.comment-reply-title small a:focus,
+.comment-reply-title small a:hover {
+	text-decoration: underline;
+}
